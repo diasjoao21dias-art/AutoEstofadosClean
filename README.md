@@ -1,21 +1,7 @@
-# Auto Estofados Clean — site premium
+# Auto Estofados Clean — site premium atualizado
 
-Site institucional responsivo, com prioridade para celular, animações leves, menu mobile, cards de serviços, seção de resultados, perguntas frequentes e chamadas para orçamento via WhatsApp.
+Inclui mais conteúdo para desktop, comparador arrastável, favicon SVG, SEO e Open Graph, WhatsApp atualizado para +55 34 99937-2839.
 
-## Como publicar no Render (Static Site)
-1. Crie um repositório no GitHub e envie os arquivos desta pasta.
-2. No Render, escolha **New + → Static Site** e conecte o repositório.
-3. Build Command: deixe vazio.
-4. Publish Directory: `.` (ponto).
-5. Clique em **Create Static Site**.
+Render Static Site: Build Command vazio; Publish Directory `.`.
 
-## Antes de publicar
-- Confira o telefone em `script.js`, na constante `WHATSAPP_NUMBER`. Está configurado com o número comercial informado anteriormente; altere se o cliente usar outro.
-- Troque as fotos ilustrativas por fotos reais da empresa para dar mais confiança e mostrar resultados verdadeiros.
-- Confirme cidade/região atendida, depoimentos e serviços específicos antes de adicionar essas informações.
-- O comparativo antes/depois atual é demonstrativo e não deve ser apresentado como resultado real de um serviço executado.
-
-## Arquivos
-- `index.html`: estrutura e conteúdo
-- `style.css`: visual responsivo, efeitos e animações
-- `script.js`: menu mobile, animações ao rolar e links do WhatsApp
+O comparador ainda usa imagem ilustrativa duplicada: substitua por fotos reais de antes/depois. `og-image.svg` é a arte social 1200x630; alguns aplicativos podem exigir JPG/PNG, então para compatibilidade máxima exporte para `og-image.jpg` e atualize `og:image`.
